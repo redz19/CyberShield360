@@ -1,0 +1,14 @@
+
+{
+  "name": "cybershield360",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CyberShield 360 defensive security dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
