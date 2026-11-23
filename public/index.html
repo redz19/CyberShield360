@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyberShield 360</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>🛡️ CyberShield 360</h1>
+    <span class="status">● Dashboard</span>
+  </header>
+
+  <main>
+    <section class="welcome">
+      <h2>Security Center</h2>
+      <p>Your personal defensive cybersecurity dashboard.</p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h3>🔗 URL Scanner</h3>
+        <p>Check suspicious links.</p>
+        <a href="#url-scanner">Open Scanner →</a>
+      </article>
+
+      <article class="card">
+        <h3>📧 Email Security</h3>
+        <p>Check email domain records.</p>
+        <a href="#email-security">Open Checker →</a>
+      </article>
+
+      <article class="card">
+        <h3>🔐 Password Security</h3>
+        <p>Check password strength locally.</p>
+        <a href="#password-security">Open Checker →</a>
+      </article>
+
+      <article class="card">
+        <h3>🆘 Account Help</h3>
+        <p>Find official account recovery pages.</p>
+        <a href="#account-help">Get Help →</a>
+      </article>
+    </section>
+
+    <section class="panel" id="url-scanner">
+      <h2>URL Scanner</h2>
+      <input id="url" type="url" placeholder="Enter a website URL">
+      <button onclick="checkUrl()">Check URL</button>
+      <p id="url-result"></p>
+    </section>
+
+    <section class="panel" id="email-security">
+      <h2>Email Domain Security</h2>
+      <input id="domain" placeholder="example.com">
+      <button onclick="checkDomain()">Check Domain</button>
+      <pre id="domain-result"></pre>
+    </section>
+
+    <section class="panel" id="password-security">
+      <h2>Password Security</h2>
+      <input id="password" type="password" placeholder="Enter a test password">
+      <button onclick="checkPassword()">Check Strength</button>
+      <p id="password-result"></p>
+      <small>Password checking will be done in your browser.</small>
+    </section>
+
+    <section class="panel" id="account-help">
+      <h2>Official Account Recovery</h2>
+      <p><a href="https://www.facebook.com/hacked/" target="_blank" rel="noopener">Facebook</a></p>
+      <p><a href="https://accounts.google.com/signin/recovery" target="_blank" rel="noopener">Google</a></p>
+      <p><a href="https://www.instagram.com/hacked/" target="_blank" rel="noopener">Instagram</a></p>
+      <p><a href="https://account.live.com/acsr" target="_blank" rel="noopener">Microsoft</a></p>
+    </section>
+  </main>
+
+  <footer>CyberShield 360 • Defensive Security Tools</footer>
+  <script src="app.js"></script>
+</body>
+          </html>
+  
